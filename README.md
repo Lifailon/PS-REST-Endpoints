@@ -1,9 +1,14 @@
-# <img src="https://github.com/Lifailon/WinAPI/blob/rsa/Screen/ico/x128.png" width="25" /> WinAPI
+<h1 align="center">
+  <img src="https://github.com/Lifailon/WinAPI/blob/rsa/Screen/ico/x128.png" width="30" />
+  WinAPI
+</h1>
 
-[![GitHub Release](https://img.shields.io/github/v/release/Lifailon/WinAPI?display_name=release&logo=GitHub&label=GitHub&link=https%3A%2F%2Fgithub.com%2FLifailon%2FWinAPI%2F)](https://github.com/Lifailon/WinAPI)
-[![NuGet Version](https://img.shields.io/nuget/v/ps.win.api?logo=NuGet&label=NuGet&link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2Fps.win.api)](https://www.nuget.org/packages/ps.win.api)
-[![GitHub top language](https://img.shields.io/github/languages/top/Lifailon/WinAPI?logo=PowerShell&link=https%3A%2F%2Fgithub.com%2FPowerShell%2FPowerShell)](https://github.com/PowerShell/PowerShell)
-[![GitHub License](https://img.shields.io/github/license/Lifailon/WinAPI?link=https%3A%2F%2Fgithub.com%2FLifailon%2FWinAPI%2Fblob%2Frsa%2FLICENSE)](https://github.com/Lifailon/WinAPI/blob/rsa/LICENSE)
+<p align="center">
+<a href="https://github.com/Lifailon/WinAPI"><img title="GitHub Release"src="https://img.shields.io/github/v/release/Lifailon/WinAPI?display_name=release&logo=GitHub&label=GitHub&link=https%3A%2F%2Fgithub.com%2FLifailon%2FWinAPI%2F"></a>
+<a href="https://www.nuget.org/packages/ps.win.api"><img title="NuGet Version"src="https://img.shields.io/nuget/v/ps.win.api?logo=NuGet&label=NuGet&link=https%3A%2F%2Fwww.nuget.org%2Fpackages%2Fps.win.api"></a>
+<a href="https://github.com/Lifailon/WinAPI"><img title="GitHub top language"src="https://img.shields.io/github/languages/top/Lifailon/WinAPI?logo=PowerShell&link=https%3A%2F%2Fgithub.com%2FPowerShell%2FPowerShell"></a>
+<a href="https://github.com/Lifailon/WinAPI/blob/rsa/LICENSE"><img title="GitHub License"src="https://img.shields.io/github/license/Lifailon/WinAPI?link=https%3A%2F%2Fgithub.com%2FLifailon%2FWinAPI%2Fblob%2Frsa%2FLICENSE"></a>
+</p>
 
 **📝 Publication on [Habr](https://habr.com/ru/articles/783022/)**
 
@@ -13,12 +18,15 @@ REST API and Web server on base **.NET HttpListener** and backend only **PowerSh
 
 **🔗 Implemented**:
 
+- [✅ Frontend web interface](#-implemented-endpoints)
+- [✅ Viewing and filtering Windows events](#-viewing-and-filtering-windows-events)
 - [✅ More than 20 unique endpoints](#-implemented-endpoints)
 - [✅ Authentication](#-authorization)
-- [✅ Converting to 4 data types](#-change-data-type)
 - [✅ Response codes handling](#-response-code)
+- [✅ Converting to 4 data types](#-change-data-type)
 - [✅ Error handling](#-operational-stability)
 - [✅ Control module](#-module)
+- [✅ Logging](#-server-log)
 
 🍿 The server functionality is implemented in the [Kinozal-Bot](https://github.com/Lifailon/Kinozal-Bot) project.
 
@@ -40,10 +48,6 @@ REST API and Web server on base **.NET HttpListener** and backend only **PowerSh
 
 ![Image alt](https://github.com/Lifailon/WinAPI/blob/rsa/Screen/Web/Web-Service.jpg)
 
-- Viewer and filtering event:
-
-![Image alt](https://github.com/Lifailon/WinAPI/blob/rsa/Screen/Web/Web-Event.gif)
-
 - Hardware statistics:
 
 ![Image alt](https://github.com/Lifailon/WinAPI/blob/rsa/Screen/Web/Web-Hardware.jpg)
@@ -57,6 +61,10 @@ To give you an example, a file download from the Internet was taking place on a 
 - Sensors from **LibreHardwareMonitor**:
 
 ![Image alt](https://github.com/Lifailon/WinAPI/blob/rsa/Screen/Web/Web-Sensors.jpg)
+
+## 📄 Viewing and filtering Windows events
+
+![Image alt](https://github.com/Lifailon/WinAPI/blob/rsa/Screen/Web/Web-Event.gif)
 
 ## 📚 Implemented endpoints
 
